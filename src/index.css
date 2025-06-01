@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: rgba(255, 140, 56, 1);
+  --color-secondary: rgba(22, 22, 22, 1);
+  --font-body: "Inter", sans-serif;
+}
+.primary-btn {
+  @apply bg-primary cursor-pointer w-full rounded-sm py-2 text-white font-medium;
+}
+.secondary-btn {
+  @apply bg-secondary cursor-pointer w-full rounded-lg py-4 text-white font-medium;
+}
+body {
+  @apply font-body;
+}
+p {
+  @apply font-medium;
+}
+h2 {
+  @apply text-3xl md:text-5xl font-bold;
+}
+
+h3 {
+  @apply text-2xl md:text-4xl font-bold;
+}
