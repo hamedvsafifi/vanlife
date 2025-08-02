@@ -1,4 +1,4 @@
-import VansList from "../features/vans/Vanslist";
+import VansList from "../features/vans/VansList";
 function VansPage() {
   return (
     <div>
