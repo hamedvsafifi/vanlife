@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Body = () => {
   return (
-    <section className="flex-1 relative bg-[url('/assets/backgrounds/bg1.png')] bg-no-repeat bg-cover bg-center  px-5 sm:px-10 md:px-20 text-white">
+    <section className="flex-1 min-h-[70vh] relative bg-[url('/assets/backgrounds/bg1.png')] bg-no-repeat bg-cover bg-center px-5 sm:px-10 md:px-20 text-white">
       <div className="absolute inset-0 bg-black/40 z-0"></div>
       <div className="relative z-10 flex flex-col text-left justify-center gap-10 h-full">
         <div className="lg:transform lg:translate-y-[-10%]">

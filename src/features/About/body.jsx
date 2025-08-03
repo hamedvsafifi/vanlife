@@ -5,7 +5,8 @@ const Body = () => {
     <section className="flex flex-col flex-1 gap-25 text-black">
       <img
         src="/assets/backgrounds/bg2.png"
-        className="min-w-full object-cover h-[300px] "
+        className="min-w-full object-cover h-[300px] lg:h-[400px] "
+        loading="lazy"
       />
       <div className="flex flex-col text-left justify-center px-5 sm:px-10 md:px-20 gap-10 md:gap-15 ">
         <h2>Don’t squeeze in a sedan when you could relax in a van.</h2>
