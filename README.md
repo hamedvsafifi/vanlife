@@ -1,14 +1,74 @@
-# React + Vite
+# vanlife
+Van rental UI built with React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## One-line pitch
 
-Currently, two official plugins are available:
+vanlife — A React, Vite, TailwindCSS, MirageJS van‑rental UI with nested routing, dynamic filters and demo/mock data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+Add your deployed demo link here (Vercel / Netlify) — e.g. `https://vanlife.example.com`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+___
+![alt text](imgs/msedge_k3yxs0OxMJ.png)
+___
+![alt text](imgs/msedge_6sLLKVsB1r.png)
+___
 
-testing
+## Features
+
+- Nested routing (listing → details → booking)
+- Dynamic filtering and search
+- Responsive UI (mobile-first)
+- Mock API for demo data (if present)
+
+## Tech Stack
+
+React, Vite, TailwindCSS, MirageJS
+
+## Project structure (top-level)
+
+- `.gitignore`
+- `README.md`
+- `eslint.config.js`
+- `index.html`
+- `package-lock.json`
+- `package.json`
+- `public/`
+- `src/`
+- `vite.config.js`
+
+## Detected insights
+
+- React detected: True
+- Next.js detected: False
+- Vite detected: True
+- TypeScript detected: False
+- Tailwind detected: True
+- Mirage/mock-api detected: True
+
+## How to run (guess)
+
+```bash
+# install
+npm install
+# dev
+npm run dev
+# build
+npm run build
+# preview
+npm run preview
+```
+
+## Suggested improvements
+
+- Add a deployed live demo (Vercel / Netlify) and include the link in README.
+- Add screenshots or a GIF showing main flows (search, filters, van detail).
+- Add a clear Tech Stack section and 'How I contributed' if this was collaborative.
+- Improve README installation steps (node version, env vars) and add an example data flow.
+
+## Components sample (first 20 found)
+
+- `src/components/Footer.jsx`
+- `src/components/Header.jsx`
